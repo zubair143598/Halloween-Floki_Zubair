@@ -1,0 +1,232 @@
+
+//Header start
+.header
+{ 
+    .logo
+    {
+        width: 132px;
+    }
+    li{
+        padding: 20px;
+        a
+        {
+        color: white !important;
+        font-weight: 500;
+        }
+    }
+}
+//header end
+
+//Hero start
+.hero
+{
+    background-image: url(./Media/bg1.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+
+   .hd1
+   {
+       font-family: "Nosifer";
+       font-size: 70px;
+       font-weight: 600;
+       color: white;
+       margin-top: 11rem;
+       
+   }
+   .col2
+   {
+        background-color: #CC6C38;
+        background: transparentize($color: #CC6C38, $amount: 0.3);
+        margin-top: 80px;
+        color: white;
+        border: 1px solid #745F98;
+        margin-bottom: 80px;
+        h3
+        {
+            margin-top: 50px;
+        }
+        .buy
+        {
+        background-color: #745F98;
+        padding: 17px 40px 17px 40px;
+        border-radius: 28px;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        border: transparent;
+        margin-top: 10px
+        }
+
+        .twitter
+        {
+            margin-top: 30px;
+            color: white;
+            // border: 5px solid #1F95E0;
+            background-color: #1F95E0;
+            padding: 10px;
+            border-radius: 8px;
+            
+        }
+        .telegram
+        {
+            margin-top: 30px;
+            color: white;
+            // border: 5px solid #1F95E0;
+            background-color: #745F98;
+            padding: 10px;
+            border-radius: 8px;
+            margin-left: 3px;
+        }
+
+        .para2
+        {
+            font-weight: 500;
+            margin-bottom: 90px
+        }
+    }
+
+}
+//Hero end
+
+
+//whatHF start
+.whatHF
+{
+    background-color: black;
+    color: white;
+    .h5
+    {
+        font-size: 15px;
+    }
+    .col1
+    {
+        margin-top: 8rem;
+        margin-bottom: 70px;
+    }
+    .line2
+    {
+        margin-left: -14px;
+    }
+
+    p
+    {
+        margin-top: 50px
+    }
+
+
+    .twitter
+        {
+            margin-top: 30px;
+            color: white;
+            // border: 5px solid #1F95E0;
+            background-color: #1F95E0;
+            padding: 10px;
+            border-radius: 8px;
+            
+        }
+        .telegram
+        {
+            margin-top: 30px;
+            color: white;
+            // border: 5px solid #1F95E0;
+            background-color: orange;
+            padding: 10px;
+            border-radius: 8px;
+            margin-left: 3px;
+        }
+
+    .img1
+    {
+        margin-bottom: 70px;
+        margin-top: 8rem;
+        width: 80%
+    }
+
+}
+//whatHF end
+
+
+//banner1 start
+.banner1
+{
+    background-image: url(./Media/bg-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-color: #745F98;
+    color: white;
+
+    .line2
+    {
+        margin-left: -14px;
+    }
+    .h5
+    {
+        font-size: 15px;
+        margin-top: 80px
+    }
+
+    .col1
+    {
+        padding: 23px;
+        margin-bottom: 80px;
+    }
+    .col1:hover
+    {
+        background-color: transparentize($color: #94637B, $amount: 0.3);
+        border-radius: 10px;
+    }
+
+}
+//banner1 end
+
+//our plane start
+.ourplane
+{
+    background-color: black;
+    .ourp1
+    {
+        margin-top: 90px !important;
+    }
+    .ourp2
+    {
+        margin-bottom: 90px !important;
+    }
+}
+//ourplan end
+
+
+//whitepaperstart
+.whitepaper
+{
+    background-color: #745F98;
+    .con2
+    {
+        color: white;
+        background-color: black;
+        padding: 23PX;
+        h1
+        {
+            margin-top: 20px;
+        }
+        .h5
+    {
+        font-size: 15px;
+    }
+    .line2
+    {
+        margin-left: -14px;
+    }
+    .check
+    {
+       
+        color:#F27022;
+    }
+    }
+
+}
+//whitepaper end
+
