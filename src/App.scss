@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
 
 //Header start
 .header
@@ -18,6 +20,18 @@
 //header end
 
 //Hero start
+
+@media  screen and (max-width: 600px)
+{
+    .hero
+    {
+    .hd1
+    {
+        font-size: 38px !important;
+    }
+   }
+}
+
 .hero
 {
     background-image: url(./Media/bg1.jpeg);
@@ -28,7 +42,7 @@
 
    .hd1
    {
-       font-family: "Nosifer";
+    font-family: 'Nosifer', cursive;
        font-size: 70px;
        font-weight: 600;
        color: white;
@@ -215,6 +229,7 @@
         .h5
     {
         font-size: 15px;
+        margin-top: 90px;
     }
     .line2
     {
@@ -224,9 +239,127 @@
     {
        
         color:#F27022;
+        padding-right: 12px;
+    }
+
+    .p1
+    {
+        margin-top: 30px;
+        display: inline-block;
+        margin-right: 10rem;
+        font-weight: 900;
+    }
+
+    .btn
+    {
+        margin-top: 50px;
+        background-color: #F27022;
+        padding:20px;
+        font-size: 18px;
+
+    }
+    ul
+    {
+        background-color: #F27022;
+        a
+        {
+            color: white;
+        }
+    
+        a:hover
+        {
+        background-color: aqua !important;
+        }
+    }
+
+    .img
+    {
+        margin-top: 90px;
+        width: 80%;
+        margin-bottom: 90px;
     }
     }
 
 }
 //whitepaper end
 
+
+//faqs start
+.faqs
+{
+    background-color: black;
+    color: white;
+    .h5
+    {
+        
+        margin-top: 8rem;
+    }
+    .line2
+    {
+        margin-left: -14px;
+    }
+    .faqmar
+    {
+        margin-top: 90px;
+    }
+    .img
+    {
+        width: 90%;
+    }
+
+    .row2
+    {
+    .col1
+    {
+        margin-bottom: 50px;
+    }
+        .twitter
+            {
+                margin-top: 30px;
+                color: white;
+                // border: 5px solid #1F95E0;
+                background-color: #1F95E0;
+                padding: 10px;
+                border-radius: 8px;
+                
+            }
+            .telegram
+            {
+                margin-top: 30px;
+                color: white;
+                // border: 5px solid #1F95E0;
+                background-color: orange;
+                padding: 10px;
+                border-radius: 8px;
+                margin-left: 13px;
+            }
+    }
+}
+//faqs end
+.footer
+{
+    .hr
+    {
+        color: rgb(244, 241, 244) !important;
+        margin-bottom: 70px;
+    }
+    .p1
+    {
+        margin-bottom: 60px;
+    }
+
+}
+
+//footer
+
+
+//base
+.base
+{
+.scroll
+{
+    background-color: #F27022;
+    height: 50px;
+    color: white !important;
+}
+}
