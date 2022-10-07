@@ -249,14 +249,35 @@
 
 
 //whitepaperstart
+.items:hover
+{
+    background-color: rgb(72, 92, 92) !important;
+}
+.lin
+{
+    background-color: #F27022 !important;
+    .items
+    {
+        color: white;
+        padding: 20;
+        font-size: 17px;
+
+    }
+}
+
+
 .whitepaper
 {
     background-color: #745F98;
+    h1
+    {
+        color: white;
+    }
     .con2
     {
         color: white;
         background-color: black;
-        padding: 23PX;
+        padding: 30PX;
         h1
         {
             margin-top: 20px;
@@ -265,6 +286,7 @@
     {
         font-size: 15px;
         margin-top: 90px;
+        color: white !important;
     }
     .line2
     {
@@ -290,7 +312,10 @@
         margin-top: 50px;
         background-color: #F27022;
         padding:20px;
+        padding-bottom: 10px;
+        height: 60px;
         font-size: 18px;
+        color: white;
 
     }
     ul
@@ -323,11 +348,15 @@
 .faqs
 {
     background-color: black;
-    color: white;
+    h1
+    {
+        color: white ;
+    }
     .h5
     {
         
         margin-top: 8rem;
+        color: white ;
     }
     .line2
     {
@@ -373,6 +402,8 @@
     }
 }
 //faqs end
+
+
 .footer
 {
     .hr
@@ -386,7 +417,6 @@
     }
 
 }
-
 //footer
 
 

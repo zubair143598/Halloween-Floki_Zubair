@@ -1,10 +1,36 @@
-// import { DownOutlined } from "@ant-design/icons";
-// import "antd/dist/antd.css";
-// import { Menu } from "antd";
+import "antd/dist/antd.css";
+import { DownOutlined, UserOutlined } from "@ant-design/icons";
+import { MenuProps } from "antd";
+import { Button, Dropdown, Menu, message, Space, Tooltip } from "antd";
 import React from "react";
 import { MdOutlineHorizontalRule } from "react-icons/md";
 import { AiFillCheckCircle } from "react-icons/ai";
-
+const handleMenuClick = (e) => {
+  message.info("Click on menu item.");
+  console.log("click", e);
+};
+const menu = (
+  <Menu className="lin rounded-3"
+    onClick={handleMenuClick}
+    items={[
+      {
+        className:"items",
+        label: "KYC",
+      
+      },
+      {
+        className:"items",
+        label: "Audit",
+        
+      },
+      {
+        className:"items",
+        label: "Whitepaper",
+        
+      },
+    ]}
+  />
+);
 const Whitepaper = () => {
   return (
     <div className="container-fluid whitepaper">
@@ -33,52 +59,15 @@ const Whitepaper = () => {
               <AiFillCheckCircle size={60} className="check" />
               Whitepaper
             </p>
-            <div className="dropdown">
-              <button
-                className="btn rounded-5  btn-secondary dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Download
-              </button>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    KYC
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                  Audit
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    whitepaper
-                  </a>
-                </li>
-              </ul>
-            </div>
 
-            {/* <Menu
-              selectable
-              defaultSelectedKeys={["3"]}
-              items={[
-                {
-                  key: "1",
-                  label: "Item 1",
-                },
-                {
-                  key: "2",
-                  label: "Item 2",
-                },
-                {
-                  key: "3",
-                  label: "Item 3",
-                },
-              ]}
-            /> */}
+            <Dropdown className="btn rounded-5" overlay={menu}>
+              <Button>
+                <Space>
+                  Download
+                  <DownOutlined />
+                </Space>
+              </Button>
+            </Dropdown>
           </div>
 
           <div className="col-md-4">
@@ -86,7 +75,9 @@ const Whitepaper = () => {
           </div>
         </div>
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

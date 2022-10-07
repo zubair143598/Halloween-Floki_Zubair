@@ -5,30 +5,31 @@ import { FaTwitter } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 
 const data = {
-  title: "FAQ (How it works)",
+  
   rows: [
     {
-      title: "Lorem ipsum dolor sit amet,",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+      title: "Why is the payout in BUSD, not in $FLOH?",
+      content: `This is a massive advantage of FLOH compared to other crypto projects. Halloween Floki, like every coin on the market, might fluctuate in value a lot. In contrast, BUSD is very stable, almost 1:1 to USD, which in result, reduces the risk of your investment. With decent volume, your investment will pay for itself over time.`,
     },
     {
-      title: "Nunc maximus, magna at ultricies elementum",
+      title: "What is slippage for?",
       content:
         "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
     },
     {
-      title: "Curabitur laoreet, mauris vel blandit fringilla",
+      title: "Why 8% tax and when is it applied?",
       content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
             Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
             Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
             Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
     },
     {
-      title: "What is the package version",
+      title: "Why am I not receiving rewards?",
       content: <p>current version is 1.2.1</p>,
+    },
+    {
+      title: "What is AMA and when do they happen?",
+      content: <p>Ask Me Anything, (AMA) is an open space where investors can talk to the developers and ask questions. The Halloween Floki team will be holding AMA’s on a regular schedule. Make sure to join our telegram to learn more about the schedule!</p>,
     },
   ],
 };
@@ -37,7 +38,7 @@ const styles = {
   bgColor: "black",
   titleTextColor: "white",
   rowTitleColor: "white",
-  rowContentColor: "grey",
+  rowContentColor: "white",
   arrowColor: "white",
 };
 
